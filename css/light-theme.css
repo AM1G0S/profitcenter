@@ -1,0 +1,368 @@
+body {
+  background: #1B1D1F;
+  color: #fff;
+}
+
+header {
+  background-color: rgba(0, 0, 0, .3);
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
+}
+
+footer {
+  background-color: rgba(0, 0, 0, .3);
+}
+
+.blk_item {
+  background: -o-linear-gradient(337.3deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 69.54%);
+  background: linear-gradient(112.7deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 69.54%);
+  -webkit-backdrop-filter: blur(35px);
+  backdrop-filter: blur(35px);
+  color: #fff;
+}
+
+.przg {
+  color: #fff;
+}
+
+.prtxt {
+  color: #86D680;
+}
+
+.zgl1 {
+  color: #fff;
+}
+
+.section3 {
+  background: -o-linear-gradient(337.3deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 69.54%);
+  background: linear-gradient(112.7deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 69.54%);
+  -webkit-backdrop-filter: blur(35px);
+  backdrop-filter: blur(35px);
+}
+
+.btn_reg {
+  background: #34A044;
+  color: #FFFFFF;
+}
+
+.btn_reg:hover,
+.bot_btn:hover {
+  background: #0D6B1B
+}
+
+.btn_log {
+  background: #F36523;
+  color: #FFFFFF;
+}
+
+.btn_log:hover {
+  background: #8C2D00
+}
+
+footer ul li a:hover {
+  color: #F36523
+}
+
+.bot_btn {
+  background: #34A044;
+  color: #FFFFFF;
+}
+
+.tmenu ul li a {
+  color: #fff;
+}
+
+.logotxt {
+  border-left: 2px solid #FFFFFF;
+}
+
+.footsec2 {
+  border-top: 1px solid #FFFFFF;
+}
+
+footer ul li a {
+  color: #FFFFFF;
+}
+
+.tmenu ul li a:hover {
+  border-color: #F36523
+}
+
+.tlg>div {
+  background: red;
+}
+
+
+.formwrap {
+  background: -o-linear-gradient(337.3deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 69.54%);
+  background: linear-gradient(112.7deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 69.54%);
+  -webkit-backdrop-filter: blur(35px);
+  backdrop-filter: blur(35px);
+}
+
+
+.formwrap input:focus {
+  outline-color: #34A044;
+}
+
+.pole input:focus+label,
+.pole input:not(:placeholder-shown)+label {
+  color: #34A044;
+}
+
+.pole__title {
+  color: #96a3ae;
+}
+
+.pole__input {
+  border: 2px solid #ececec;
+}
+
+.pole__input:hover {
+  border-color: #34A044;
+}
+
+.pole.sbm>button {
+  background: #34A044;
+  color: #fff;
+  ;
+}
+
+.pole.sbm>button:hover {
+  background: #0D6B1B;
+}
+
+.formbottom {
+  color: #fff;
+}
+
+.formbottom a {
+  color: #fff;
+}
+
+.formbottom a:hover {
+  color: #34A044;
+}
+
+.formhdr {
+  color: #fff;
+}
+
+.formhdr {
+  color: #fff;
+}
+
+.clsfrm:hover {
+  background-color: #34A044;
+}
+
+.captcha {
+  box-shadow: 0px 3px 7px 1px rgba(34, 60, 80, 0.2);
+}
+
+.captcha-options__item {
+  box-shadow: 0px 1px 4px 1px rgba(34, 60, 80, 0.2);
+}
+
+
+.captcha__heder {
+  background-color: #989c99;
+}
+
+.captcha__title {
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 1px #111111;
+}
+
+.captcha__reload-btn {
+  background-color: transparent;
+}
+
+.captcha__reload-btn:hover {
+  background-color: #0D6B1B;
+}
+
+.captcha-options__item::before {
+  background-color: transparent;
+}
+
+.captcha-options__item:hover::before {
+  background-color: #0d6b1b86;
+}
+
+.captcha-options__item.active::before {
+  background-color: #0d6b1b86;
+}
+
+.mobtrg {
+  background: #34A044;
+}
+
+.corner1 {
+  background: #F36523;
+  box-shadow: -10px 14px 20px rgb(0 0 0 / 19%);
+}
+
+.fixedtab {
+  box-shadow: -10px 4px 48px 10px rgb(0 0 0 / 20%);
+  background: #f365237a;
+}
+
+.fixedtab:before {
+  background: #12FF00;
+}
+
+.ppp .mobcrs {
+  background: #D1D1D1 url("../images/icons/cross.svg") center no-repeat;
+}
+
+.tags>div {
+  background: #F36523;
+}
+
+.b_txt ul li:before {
+  background: #fff;
+}
+
+.mobtrg span {
+  background: #fff;
+}
+
+.popwrap {
+  background: rgba(0, 30, 23, 0.8);
+}
+
+.slider:before {
+  background: #181a1b url('../images/night.png');
+}
+
+input:checked+.slider:before {
+  background: rgb(69, 67, 67) url('../images/night.png');
+}
+
+@media (max-width: 980px) {
+  .tmenu {
+    background: rgba(0, 30, 23, 0.8);
+  }
+}
+
+.content__wrapper {
+  border-top: 4px solid;
+  background: -o-linear-gradient(337.3deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 118.54%);
+  background: linear-gradient(112.7deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 118.54%);
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7607843137);
+}
+
+.navigation {
+  background: -o-linear-gradient(337.3deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 118.54%);
+  background: linear-gradient(112.7deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 118.54%);
+  color: #34495e;
+  background-color: #ecf0f1;
+}
+
+.accordion-nav__header {
+  box-shadow: 0 2px 3px rgb(0 0 0 / 10%);
+  transition: box-shadow 0.3s, background-color 0.3s;
+}
+
+.accordion-nav__item.active>.accordion-nav__header {
+  background-color: #d8dfe2;
+}
+
+.submenu {}
+
+.submenu__item:not(:last-child) {
+  border-bottom: 1px solid #b8c0c3;
+}
+
+.submenu__link {
+  color: #34495e;
+}
+
+.submenu__link:hover {
+  background-color: #bad3d9;
+  color: #015e6b;
+}
+
+.submenu__link_active {
+  text-shadow: 0 1px 1px #015e6b;
+  color: #015e6b;
+}
+
+.submenu__link_active::before {
+  background-color: #34495e;
+}
+
+.main-block {
+  color: #34495e;
+  background-color: #fff;
+}
+
+.enumeration__text>a {
+  color: #34495e;
+}
+
+.enumeration__text>a:hover {
+  color: #6c6b7f;
+}
+
+.enumeration__item_point {
+  background-color: #ecf0f1;
+  border-left: 5px solid #015e6b;
+}
+
+.enumeration__info-block {
+  background-color: #ecf0f1;
+  color: #34495e;
+}
+
+.main-block__nav-open::before,
+.main-block__nav-open::after,
+.main-block__nav-open>span {
+  background-color: #34495e;
+}
+
+.main-block__link:hover>.main-block__link-icon {
+  fill: #fff;
+  background-color: #34495e;
+}
+
+.main-block__link-icon {
+  fill: #34495e;
+}
+
+.accordion-nav__icon {
+  fill: #34495e;
+}
+/* смена цветов и прочего в зависимости от фона */
+.wrapper.bg1>header.active {
+  background-color: rgb(22 24 25);
+}
+
+.wrapper.bg2>header.active {
+  background-color: #015e6b;
+}
+
+.wrapper.bg3>header.active {
+  background-color: rgb(67 16 153);
+}
+
+.wrapper.bg4>header.active {
+  background-color: rgb(220 88 13);
+}
+
+.wrapper.bg1>.content > .content_inner> .content__wrapper {
+  border-color: rgb(22 24 25);
+}
+
+.wrapper.bg2>.content > .content_inner> .content__wrapper {
+  border-color: #015e6b;
+}
+
+.wrapper.bg3>.content > .content_inner> .content__wrapper {
+  border-color: rgb(26 4 66);
+}
+
+.wrapper.bg4>.content > .content_inner> .content__wrapper {
+  border-color: rgb(220 88 13);
+}
